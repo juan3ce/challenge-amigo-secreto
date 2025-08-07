@@ -1,10 +1,20 @@
 <h1>AMIGO SECRETO</h1>
 
-- Como usar el programa:
+# 🎁 Amigo Secreto
 
-La aplicación permita a los usuarios ingresar nombres de amigos en una lista 
-para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
-El usuario deberá agregar nombres mediante el campo de texto y un botón "Adicionar". 
-Los nombres ingresados se mostrarán en una lista visible en la página, y al 
-finalizar, un botón "Sortear Amigo" seleccionará uno de los nombres de forma aleatoria, 
-mostrando el resultado en pantalla.
+Aplicación web simple que permite a los usuarios ingresar nombres de amigos en una lista y realizar un sorteo aleatorio para determinar quién es el "amigo secreto".
+
+El usuario puede añadir nombres mediante un campo de texto y un botón "Adicionar". Los nombres se muestran en una lista visible en la página y, al finalizar, se puede usar el botón "Sortear Amigo" para elegir un nombre aleatoriamente, mostrando el resultado en pantalla.
+
+---
+
+## 🔧 Instalación y uso
+
+No se requiere instalación de dependencias ni servidores adicionales.  
+Sigue estos pasos para ejecutar la aplicación:
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/juan3ce/challenge-amigo-secreto
+   
+
