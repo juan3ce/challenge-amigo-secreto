@@ -11,7 +11,6 @@ function agregarAmigo() {
     // Obtiene el valor del input con id "amigo"
     // y lo almacena en la variable nombre
     nombre = document.getElementById("amigo").value.toLowerCase();
-    console.log(nombre);
     // Verifica si el input está vacío o si el nombre ya está en la lista
     // Si el input está vacío, muestra un mensaje de alerta    
     if(nombre === "") {
@@ -26,7 +25,6 @@ function agregarAmigo() {
         // Si el input no está vacío, agrega el nombre al array amigos
         // y llama a la función mostrarListaAmigos para actualizar la lista
         amigos.push(nombre);
-        console.log(amigos);
         mostrarListaAmigos();
     }
     // Limpia el input después de agregar el nombre
@@ -55,7 +53,6 @@ function sortearAmigo() {
         return; // Sale de la función si no hay amigos para sortear
     } else {
         numeroRandom = Math.floor(Math.random() * amigos.length);
-        console.log(numeroRandom);
         document.getElementById("resultado").innerHTML = amigos[numeroRandom];
     }
 }
